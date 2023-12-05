@@ -4,7 +4,7 @@ Problem: Given a sorted array that can contain duplicates, find the first and la
 Example :
 
 ```
-$search_array = [1, 2, 4, 4, 4, 5, 5, 6, 6, 9];
+$search_array = [1, 2, 3, 4, 4, 4, 5, 5, 6, 6, 7, 7, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 9];
 $target = 4;
 print_r(findRange($search_array , $target));
 ```
