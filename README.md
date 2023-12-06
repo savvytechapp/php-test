@@ -9,6 +9,6 @@ $target = 4;
 print_r(findRange($search_array , $target));
 ```
 
-Should output [2,4] because 4 first appears at index 2 and last appears at index 4.
+Should output [3,5] because 4 first appears at index 3 and last appears at index 5.
 
 The reason why we want to use a binary search in this problem is that a linear scan is too slow (O(n) complexity), while a binary search can find elements in log(n) time.
